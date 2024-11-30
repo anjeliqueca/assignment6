@@ -1,0 +1,282 @@
+/* universal style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body style */
+body{
+    background-color: #fffcf5;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    color: #181b20;
+    width: 100%;
+}
+
+/* navigation header styles */
+header.top{
+    box-sizing: border-box;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #f0f0e9;
+    width: 100%;
+}
+div.header0{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+div.header1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 25%;
+}
+div.header2{
+    box-sizing: border-box;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    width: 50%;
+    flex-basis: 45%;
+}
+nav.header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 75%;
+}
+nav ul{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex: auto;
+}
+nav ul li{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex: auto;
+    font-size: 1.25em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    color: #24282a;
+}
+
+/* nav header link styles */
+a:link{
+    color: #24282a;
+    text-decoration: none;
+}
+a:hover{
+    color: #748ea0;
+}
+
+a.logo{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img.logo{
+    display: block;
+    width: 50%;
+}
+
+/* icon nav styles */
+aside{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 0;
+    max-width: 100%;
+    padding: 0 50px;
+}
+div.left, div.middle, div.right{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    min-width: 0;
+    max-width: 100%;
+}
+
+a.musings, a.research, a.work{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img.musings, img.research, img.work{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 75%;
+}
+
+/* short about styles */
+main{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+div.mainleft{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    flex-basis: 45%;
+    padding-right: 2%;
+}
+div.mainright{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    width: 75%;
+}
+header.bio{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    flex: 0 0 auto;
+}
+div.bioname{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    flex: 0 0 auto;
+}
+h2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 600;
+    color: #181b20;
+    letter-spacing: .2em;
+    line-height: 2em;
+    margin: 1%;
+    padding: 1%;
+    flex: 0 0 auto;
+}
+div.paragraph{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    flex: 0 0 auto;
+}    
+p{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    font-size: 16px;
+    color: #2e3234;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    width: 75%;
+    margin: 1%;
+    padding: 1%;
+    flex: 0 0 auto;
+}
+
+img.profile{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    flex-basis: 45%;
+    padding: 1%;
+}
+
+/* footer styles */
+footer.footer{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+nav.footer-nav{
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    width: 100%;
+}
+div.footer-nav-group{
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+}
+div.footer-nav-heading{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+    letter-spacing: .1em;
+    color: #181b20;
+}
+a.footer-nav-group-item:link{
+    text-decoration: none;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #2e3234;
+}
+a.footer-nav-group-item:hover{
+    text-decoration: none;
+    color: #316789;
+}
+div.copyright{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    width: 25%;
+}
+p.copyright{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: #2e3234;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}
