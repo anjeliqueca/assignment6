@@ -72,7 +72,7 @@ a:link{
     color: #24282a;
     text-decoration: none;
 }
-a:hover{
+li a:hover{
     color: #748ea0;
 }
 a:active{
@@ -80,6 +80,12 @@ a:active{
 }
 a:visited{
     color: #24282a;
+}
+
+/* so we know what our current page is*/
+li.active a {
+    font-weight: bold;
+    color: #094cc7;
 }
 
 a.logo{
@@ -155,6 +161,7 @@ div.mainright{
     padding: 2%;
     width: 75%;
 }
+
 header.bio{
     display: flex;
     justify-content: flex-start;
@@ -222,7 +229,10 @@ article{
     justify-content: space-between;
     text-align: center;
     margin: 20px;
-}
+}    
+
+
+
 header.article-bio{
     justify-content: center;
     text-align: center;
@@ -335,3 +345,14 @@ p.copyright{
     letter-spacing: .1em;
     line-height: 1.5em;
 }
+
+/* slideshow */
+.cycle-slideshow img{
+    
+    align-items: center;
+}
+
+
+
+
+
