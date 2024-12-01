@@ -58,14 +58,13 @@ nav ul{
     flex: auto;
 }
 nav ul li{
-    display: flex;
-    text-align: right;
-    justify-content: flex-end;
+    list-style: none;
     flex: auto;
     font-size: 1.25em;
     font-weight: 500;
     letter-spacing: .2em;
     color: #24282a;
+    margin-right: 20px;
 }
 
 /* nav header link styles */
@@ -75,6 +74,12 @@ a:link{
 }
 a:hover{
     color: #748ea0;
+}
+a:active{
+    color: #748ea0;
+}
+a:visited{
+    color: #24282a;
 }
 
 a.logo{
@@ -259,8 +264,13 @@ a.footer-nav-group-item:link{
     color: #2e3234;
 }
 a.footer-nav-group-item:hover{
-    text-decoration: none;
     color: #316789;
+}
+a.footer-nav-group-item:active{
+    color: #316789;
+}
+a.footer-nav-group-item:visited{
+    color: #24282a;
 }
 div.copyright{
     box-sizing: border-box;
