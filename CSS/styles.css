@@ -198,7 +198,7 @@ div.paragraph{
     text-align: left;
     width: 100%;
     flex: 0 0 auto;
-}    
+}     
 p{
     display: flex;
     justify-content: flex-start;
@@ -212,6 +212,51 @@ p{
     margin: 1%;
     padding: 1%;
     flex: 0 0 auto;
+}
+
+/* article styles */
+article{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+header.article-bio{
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 20px;
+}
+div.article-bioname{
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 20px;
+}
+h2.article{
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #181b20;
+    letter-spacing: .2em;
+    line-height: 2em;
+    margin: 20px;
+}
+div.article-paragraph{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+} 
+p.article{
+    text-align: left;
+    font-size: 16px;
+    color: #2e3234;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    margin: 20px;
 }
 
 img.profile{
